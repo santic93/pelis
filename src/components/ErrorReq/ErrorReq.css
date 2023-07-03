@@ -1,0 +1,9 @@
+
+.zoom-area { 
+  max-width: 490px;
+  margin: 30px auto 30px;
+  font-size: 19px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: brown;
+}

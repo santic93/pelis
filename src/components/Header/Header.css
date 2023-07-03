@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  background-image: url('../../tira-de-película.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+input {
+  font-family: 'Tilt Prism', cursive;
+
+  background-color: beige;
+  border-radius: 15px;
+  text-align: center;
+  -webkit-box-shadow: -5px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -5px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+input:focus {
+  background-color: aliceblue;
+}
+input:hover {
+  background-color: aliceblue;
+  box-shadow: 10px;
+}
+.btn {
+  justify-content: right;
+  margin: 10px;
+  align-items: right;
+  text-align: right;
+}
+h1 {
+  text-decoration: none;
+  list-style: none;
+  color: #001c30;
+}
+h1:hover {
+  font-weight: bold;
+  color: #f86f03;
+}
